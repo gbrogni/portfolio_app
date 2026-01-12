@@ -1,0 +1,10 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Next.js build outputs
+.next/
+.out/
+out/
+dist/
+build/
