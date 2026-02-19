@@ -12,13 +12,13 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="text-[#4338ca] font-medium mb-4 tracking-wide uppercase text-sm">Full-Stack Developer</p>
+          <p className="text-[#4338ca] font-medium mb-4 tracking-wide uppercase text-sm">Full-Stack Engineer</p>
           <h1 className="text-5xl md:text-7xl font-bold text-[#1a1a2e] mb-6 leading-tight">
             Gabriel <span className="gradient-text">Brogni</span>
           </h1>
           <p className="text-lg md:text-xl text-[#6b7280] max-w-2xl mx-auto mb-10 leading-relaxed">
-            Full-stack engineer with 3+ years of experience specializing in modern web technologies 
-            and enterprise-grade applications. Expert in Angular, .NET Core, React/Next.js, and Node.js.
+            Full-stack engineer focused on scalable architecture and high-performance web applications.
+            Experienced in designing REST and GraphQL APIs with .NET and Node.js, and building modern frontends with React, Next.js, and Angular.
           </p>
         </motion.div>
 

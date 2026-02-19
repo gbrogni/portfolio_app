@@ -2,28 +2,29 @@ import { Experience, Skill, Education, Certification, Project } from './types';
 
 export const experiences: Experience[] = [
   {
-    title: 'Mid-Level Full-Stack Engineer',
+    title: 'Full-Stack Engineer',
     company: 'Table IT',
     period: 'August 2025 – Present',
     description: [
-      'Development of full-stack features using .NET (C#), Angular, and SQL Server',
-      'Migration and reimplementation of legacy ASP system into modern .NET + Angular architecture',
-      'Implementation of authentication/authorization service using RSA asymmetric cryptography and digital signatures',
-      'Design and maintenance of REST and GraphQL APIs with query optimization',
-      'Application of Clean Code, Clean Architecture, and DDD principles',
-      'Work within Agile (Scrum) using Git and Azure DevOps for CI/CD pipelines'
+      'Develop full-stack solutions with .NET (C#), Node.js (NestJS/Express), ReactJS and Angular, building scalable APIs and modern SPA interfaces.',
+      'Led migration of legacy ASP system to modern architecture (.NET + React/Angular), decreasing post-deploy risks and improving delivery velocity.',
+      'Designed and maintained REST and GraphQL APIs with focus on performance, data modeling and security (JWT, access control).',
+      'Implemented secure authentication services for automated integrations using RSA encryption and digital signatures in production.',
+      'Work with observability, logging and CI/CD pipelines (Azure DevOps/Git) to enable predictable deployments and safe rollbacks.',
+      'Collaborate with stakeholders on technical design and prioritization.'
     ]
   },
   {
-    title: 'Mid-Level Full-Stack Engineer',
+    title: 'Full-Stack Engineer',
     company: 'Movtech Systems',
     period: 'September 2022 - August 2025',
     description: [
-      'Led system modernization by refactoring legacy VB.NET to C# using Clean Architecture',
-      'Architected comprehensive testing strategy using XUnit and Cypress for E2E testing',
-      'Developed features across backend (.NET Core) and frontend (Angular)',
-      'Collaborated with stakeholders to translate business needs into technical solutions',
-      'Participated in Scrum ceremonies and maintained high code quality standards'
+      'Led legacy migration (VB.NET → C#/.NET Core) and architectural redesign using Clean Architecture and DDD, reducing technical debt and improving maintainability.',
+      'Designed and built scalable APIs using .NET Core and Node.js (Express/NestJS), including authentication, versioning and clear API contracts.',
+      'Architected SPAs with Angular and ReactJS focused on component reuse, state management and render performance.',
+      'Implemented asynchronous Node.js services for integrations and batch processing to improve throughput and system decoupling.',
+      'Defined automated testing strategy (unit, integration, E2E) with XUnit, Jest and Cypress, raising release reliability.',
+      'Active participant in architecture decisions, code reviews and engineering standards.'
     ]
   }
 ];
